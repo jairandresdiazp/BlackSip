@@ -3,9 +3,9 @@
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-    "cadenaConexionColaPedidos": "DefaultEndpointsProtocol=https;AccountName=middlewarecomercioelectr;AccountKey=T4yW2Jr8xp3eA4eHdNXBsJecVLiXpp0FVxMa1UL+8sAGaMmZlcSa/qBqwIqRCuIQFaccwIBKjf8VL9neTR3WTA==;EndpointSuffix=core.windows.net",
+    "cadenaConexionColaPedidos": "cadena conocecion storage acount azure",
     "nombreColaPedidos": "pedidos",
-    "cadenaConexionBaseDatos": "mongodb://admin:nH3r54stUZ3dj0ML@blacksip-shard-00-00.rji1j.azure.mongodb.net:27017,blacksip-shard-00-01.rji1j.azure.mongodb.net:27017,blacksip-shard-00-02.rji1j.azure.mongodb.net:27017/PruebaBlackSip?ssl=true&replicaSet=atlas-o1a5uj-shard-0&authSource=admin&retryWrites=true&w=majority",
+    "cadenaConexionBaseDatos": "cadena de conexion con mongo",
     "nombreBaseDatos": "PruebaBlackSip",
     "baseUrlErp": "https://dev.oscato.com/blacksip-jairdiaz"
   }
