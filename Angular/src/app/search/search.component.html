@@ -1,0 +1,23 @@
+<h1>Lista de pedidos</h1>
+<div class="container">
+<table class="table">
+    <thead>
+        <tr>
+            <th>Cliente</th>
+            <th>Direccion</th>
+            <th>Telefono</th>
+            <th>Nota</th>      
+            <th>Producto</th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr *ngFor="let pedido of pedidos">
+            <th>{{pedido.cliente}}</th>
+            <th>{{pedido.entrega.direccion}}</th>
+            <th>{{pedido.entrega.telefono}}</th>
+            <th>{{pedido.entrega.notas.toString()}}</th>
+            <th>{{pedido.productos.toString()}}</th>
+        </tr>
+    </tbody>
+</table>
+</div>

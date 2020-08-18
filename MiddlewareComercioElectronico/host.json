@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": true
+      }
+    }
+  },
+  "extensions": {
+    "queues": {
+      "maxPollingInterval": "00:00:02", //tiempo entre sondeo y sondeo de la cola 
+      "visibilityTimeout": "00:10:00", //tiempo en el que muestra un mensaje luego de la falla
+      "batchSize": 20, //cantidada de mensaje a procesar al tiempo
+      "maxDequeueCount": 10 //reintentos para procesar el menasje
+    }
+  }
+}
